@@ -110,3 +110,4 @@ compareLetter(letterGuessed);
 gameComplete();
 
 }
+
