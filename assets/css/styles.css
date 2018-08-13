@@ -1,0 +1,37 @@
+body{
+background: url("bkg55.jpg");
+    
+}
+
+
+
+.jumbotron{
+
+    background-color: rgb(230, 173, 130);
+    width: 40%;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    }
+
+    .card{
+        margin-left: 10px;
+        margin-bottom: 10px;
+        width: 40%;
+        background-color: darkgrey;
+    }
+
+.panel{
+    background-color: darkgray;
+    color: aliceblue;
+    width: 40%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+.btn{
+
+    width: 30%;
+}

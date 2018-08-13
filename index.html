@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css"> >
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>REAL HANGMAN GAME!</h1>
+            <p>WORD GUESSES.</p>
+
+        </div>
+    </div>
+
+    <div class="card">
+            <div class="card-header">
+              WORD TO GUESS
+            </div>
+            <div class="card-body">             
+             <span id = "wordToGuess">___________________________________</span>              
+            
+            </div>
+          </div>
+        
+        <div class="panel panel-default">
+              <div class="panel-heading">
+                    <h3 class="panel-title">WRONG GUESS</h3>
+              </div>
+              <div class="panel-body">
+                  <span id ="wrongGuesses">------</span>
+                    
+              </div>
+        </div>
+
+        <div class="panel panel-default">
+                <div class="panel-heading">
+                      <h3 class="panel-title">GUESSES LEFT</h3>
+                </div>
+                <div class="panel-body">
+                        <span id ="numGuessesLeft">------</span>
+                </div>
+          </div>
+          <div class="panel panel-default">
+                <div class="panel-heading">
+                      <h3 class="panel-title">WIN COUNTER</h3>
+                </div>
+                <div class="panel-body">
+                    <span id ="winCounter">------</span>
+                </div>
+          </div>
+
+          <div class="panel panel-default">
+                <div class="panel-heading">
+                      <h3 class="panel-title">LOSS COUNTER</h3>
+                </div>
+                <div class="panel-body">
+                <span id ="lossCounter">------</span>
+                </div>
+          </div>
+  
+
+
+        
+
+    <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+
+
+
+
+
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
